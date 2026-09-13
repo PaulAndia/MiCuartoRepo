@@ -32,5 +32,5 @@ def get_starwars_warriors():
 
 @app.get("/warriorsGOT")
 def get_warriors_got():
-    rows = ["Jon SnowS", "Daenerys TargaryenN", "Arya StarkK", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
+    rows = ["Jon SnowS", "Daenerys TargaryenN", "Arya StarkKS", "Tyrion Lannister", "Cersei Lannister", "Jaime Lannister", "Bran Stark", "Sansa Stark"]
     return rows
